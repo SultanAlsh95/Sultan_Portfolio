@@ -1,0 +1,78 @@
+file,variable,label
+DEMO_L,SEQN,Respondent sequence number
+DEMO_L,SDDSRVYR,Data release cycle
+DEMO_L,RIDSTATR,Interview/Examination status
+DEMO_L,RIAGENDR,Gender
+DEMO_L,RIDAGEYR,Age in years at screening
+DEMO_L,RIDAGEMN,Age in months at screening - 0 to 24 mos
+DEMO_L,RIDRETH1,Race/Hispanic origin
+DEMO_L,RIDRETH3,Race/Hispanic origin w/ NH Asian
+DEMO_L,RIDEXMON,Six-month time period
+DEMO_L,RIDEXAGM,Age in months at exam - 0 to 19 years
+DEMO_L,DMQMILIZ,Served active duty in US Armed Forces
+DEMO_L,DMDBORN4,Country of birth
+DEMO_L,DMDYRUSR,Length of time in US
+DEMO_L,DMDEDUC2,Education level - Adults 20+
+DEMO_L,DMDMARTZ,Marital status
+DEMO_L,RIDEXPRG,Pregnancy status at exam
+DEMO_L,DMDHHSIZ,Total number of people in the Household
+DEMO_L,DMDHRGND,HH ref person’s gender
+DEMO_L,DMDHRAGZ,HH ref person’s age in years
+DEMO_L,DMDHREDZ,HH ref person’s education level
+DEMO_L,DMDHRMAZ,HH ref person’s marital status
+DEMO_L,DMDHSEDZ,HH ref person’s spouse’s education level
+DEMO_L,WTINT2YR,Full sample 2-year interview weight
+DEMO_L,WTMEC2YR,Full sample 2-year MEC exam weight
+DEMO_L,SDMVSTRA,Masked variance pseudo-stratum
+DEMO_L,SDMVPSU,Masked variance pseudo-PSU
+DEMO_L,INDFMPIR,Ratio of family income to poverty
+DIQ_L,SEQN,Respondent sequence number
+DIQ_L,DIQ010,Doctor told you have diabetes
+DIQ_L,DID040,Age when first told you had diabetes
+DIQ_L,DIQ160,Ever told you have prediabetes
+DIQ_L,DIQ180,Had blood tested past three years
+DIQ_L,DIQ050,Taking insulin now
+DIQ_L,DID060,How long taking insulin
+DIQ_L,DIQ060U,Unit of measure (month/year)
+DIQ_L,DIQ070,Take diabetic pills to lower blood sugar
+BMX_L,SEQN,Respondent sequence number
+BMX_L,BMDSTATS,Body Measures Component Status Code
+BMX_L,BMXWT,Weight (kg)
+BMX_L,BMIWT,Weight Comment
+BMX_L,BMXRECUM,Recumbent Length (cm)
+BMX_L,BMIRECUM,Recumbent Length Comment
+BMX_L,BMXHEAD,Head Circumference (cm)
+BMX_L,BMIHEAD,Head Circumference Comment
+BMX_L,BMXHT,Standing Height (cm)
+BMX_L,BMIHT,Standing Height Comment
+BMX_L,BMXBMI,Body Mass Index (kg/m**2)
+BMX_L,BMDBMIC,BMI Category - Children/Youth
+BMX_L,BMXLEG,Upper Leg Length (cm)
+BMX_L,BMILEG,Upper Leg Length Comment
+BMX_L,BMXARML,Upper Arm Length (cm)
+BMX_L,BMIARML,Upper Arm Length Comment
+BMX_L,BMXARMC,Arm Circumference (cm)
+BMX_L,BMIARMC,Arm Circumference Comment
+BMX_L,BMXWAIST,Waist Circumference (cm)
+BMX_L,BMIWAIST,Waist Circumference Comment
+BMX_L,BMXHIP,Hip Circumference (cm)
+BMX_L,BMIHIP,Hip Circumference Comment
+GHB_L,SEQN,Sequence number
+GHB_L,WTPH2YR,Phlebotomy 2 Year Weight
+GHB_L,LBXGH,Glycohemoglobin (%)
+GLU_L,SEQN,Respondent sequence number
+GLU_L,WTSAF2YR,Fasting Subsample 2 Year MEC Weight
+GLU_L,LBXGLU,Fasting Glucose (mg/dL)
+GLU_L,LBDGLUSI,Fasting Glucose (mmol/L)
+BPXO_L,SEQN,Respondent sequence number
+BPXO_L,BPAOARM,Arm selected - oscillometric
+BPXO_L,BPAOCSZ,Coded cuff size - oscillometric
+BPXO_L,BPXOSY1,Systolic - 1st oscillometric reading
+BPXO_L,BPXODI1,Diastolic - 1st oscillometric reading
+BPXO_L,BPXOSY2,Systolic - 2nd oscillometric reading
+BPXO_L,BPXODI2,Diastolic - 2nd oscillometric reading
+BPXO_L,BPXOSY3,Systolic - 3rd oscillometric reading
+BPXO_L,BPXODI3,Diastolic - 3rd oscillometric reading
+BPXO_L,BPXOPLS1,Pulse - 1st oscillometric reading
+BPXO_L,BPXOPLS2,Pulse - 2nd oscillometric reading
+BPXO_L,BPXOPLS3,Pulse - 3rd oscillometric reading
