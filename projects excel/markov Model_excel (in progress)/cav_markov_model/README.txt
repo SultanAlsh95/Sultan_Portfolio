@@ -1,3 +1,5 @@
+The work was done by Sultan; the note was written by AI
+
 EVEROLIMUS VS AZATHIOPRINE AFTER HEART TRANSPLANT: MARKOV COHORT MODEL
 ======================================================================
 
@@ -51,25 +53,6 @@ MODEL AT A GLANCE
   Mortality       ONS National Life Tables 2022-2024 as a floor
   Treatment       relative risk of CAV 0.68 for everolimus
                   (Eisen et al. 2003), applied to moves out of state 1
-
-
-RESULT
-------
-
-  Strategy       Cost       QALYs   Life years
-  Azathioprine   £23,485    6.24    11.16
-  Everolimus     £73,154    6.68    12.06
-
-Everolimus gains 0.44 QALYs at an extra cost of £49,669, an ICER of
-£113,366 per QALY. This is well above NICE's threshold of £25,000 to
-£35,000 per QALY, so everolimus is not cost-effective at its list
-price. Almost all of the extra cost is the drug itself.
-
-In the one-way sensitivity analysis, the relative risk has by far the
-largest effect (ICER £70,776 to £384,692), followed by the discount
-rate. No single input brings the ICER below £35,000.
-
-All inputs, sources, assumptions and limitations are in the Excel file.
 
 
 DATA SOURCES
