@@ -1,3 +1,5 @@
+The work was done by Sultan; the note was written by AI
+
 SCREENING FOR UNDIAGNOSED TYPE 2 DIABETES: DECISION TREE MODEL
 ================================================================
 
