@@ -44,15 +44,6 @@ FOLDERS
   scripts/                  the three numbered files above
 
 
-RESULT
-------
-
-Screening people with BMI >= 25 costs 13,440 pounds per QALY gained
-compared with no screening. Screening everyone costs 148,061 pounds per
-QALY gained compared with screening BMI >= 25.
-
-All inputs, sources, assumptions and limitations are in the Excel file.
-
 
 DATA SOURCE
 -----------
