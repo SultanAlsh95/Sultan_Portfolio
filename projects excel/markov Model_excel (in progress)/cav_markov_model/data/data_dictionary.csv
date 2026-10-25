@@ -1,0 +1,11 @@
+variable,label,type,values_or_units,notes
+PTNUM,Patient identification number,integer,ID,
+age,Recipient age at examination,number,years,Age of the patient at that examination. Use rows with firstobs = 1 for age at transplant.
+years,Time of examination since transplant,number,years,0 on the transplant record. Use it to put each patient's visits in order.
+dage,Age of the heart donor,number,years,
+sex,Sex of the recipient,integer,0 = male; 1 = female,
+pdiag,Primary diagnosis (reason for transplant),text,IHD = ischaemic heart disease; IDC = idiopathic dilated cardiomyopathy; check the full list with SELECT DISTINCT,
+cumrej,Cumulative number of acute rejection episodes,integer,count,
+state,Health state at this examination,integer,1 = no CAV; 2 = mild/moderate CAV; 3 = severe CAV; 4 = death,Main variable for the transition counts. Death is recorded at the exact date of death.
+firstobs,First observation flag,integer,1 = transplant record (first row for the patient); 0 = later angiogram or death,The transplant record is in state 1 for every patient.
+statemax,Highest state observed so far for this patient,integer,1 to 4,"statemax is the worst state a patient has reached so far, up to and including that visit. It never goes down, even when state does."
